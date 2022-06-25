@@ -1,2 +1,2 @@
 Write-Host("Stop docker compose");
-wsl -u root -e sudo docker compose stop;
+wsl -e docker compose stop -f;

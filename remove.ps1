@@ -5,4 +5,4 @@ Write-Host("WSL start docker service");
 wsl -u root -e sudo service docker start;
 
 Write-Host("Remove docker compose with force and stop running services options");
-wsl -u root -e sudo docker compose rm -f -s;
+wsl -e docker compose rm -f -s;
