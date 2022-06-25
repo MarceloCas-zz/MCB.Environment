@@ -1,2 +1,2 @@
 Write-Host("Stop docker compose");
-wsl -e docker compose stop -f;
+wsl -e docker compose stop;
